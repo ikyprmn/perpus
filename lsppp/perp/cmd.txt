@@ -1,3 +1,8 @@
+composer create-project laravel/laravel nama-project
+php artisan make:migration create_nama_table
+php artisan make:model NamaModel -m
+php artisan make:controller NamaController
+
 composer instal
 cp .env.example .env
 php artisan key:generate
